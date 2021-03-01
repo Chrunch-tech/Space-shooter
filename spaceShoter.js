@@ -264,4 +264,4 @@ function Events(){
 window.addEventListener('keydown', function(){Player(event)}, false);
 const waveInerval = setInterval(Enemy, 5);
 setInterval(Events, 5);
-//  To be continew;
+//  To be continue;
