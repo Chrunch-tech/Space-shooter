@@ -1,0 +1,35 @@
+#header{
+	font-family: 'Goldman', cursive;
+	font-weight: 500;
+	color: white;
+}
+
+body{
+	position: fixed;
+	background-image: url('assets/background.png')
+}
+
+.ship-main-img{
+	position: absolute;
+	top: 566px;
+	left: 560px;
+}
+
+#main-ship-firing-state{
+	position: absolute;
+	transition: 0.5s;
+}
+
+#enemy-ship-img{
+	display: flex;
+	padding: 10px;
+	position: absolute;
+	transition: 0.5s;
+	top: -100px;
+}
+
+#enemy-ship-firing-state{
+	position: absolute;
+	display: flex;
+	transition: 0.4s;
+}
